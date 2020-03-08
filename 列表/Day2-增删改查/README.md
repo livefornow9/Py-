@@ -48,7 +48,7 @@ My Favorite Food Is Cheese And Doughnut Forever!
 
 
 ### 增删改
-- 修改 **列表名[位序] = 新元素**
+- 修改：**列表名[位序] = 新元素**
 ```
 lovenum = [3,5,6,8,9,0]
 print(lovenum)
@@ -60,7 +60,8 @@ print(lovenum)
 ```
 
 - 增加 
-1.在列表末尾增加 **append(新元素)**
+
+1.在列表末尾增加：**append(新元素)**
 ```
 lovenum = [3,5,6,8,9]
 lovenum.append(13)
@@ -69,7 +70,7 @@ print(lovenum)
 [3, 5, 6, 8, 9, 13]
 ```
 
-2.在列表中间增加  **insert(位序,新元素)**
+2.在列表中间增加：**insert(位序,新元素)**
 ```
 lovenum = [3,5,6,8,9]
 lovenum.insert(2,13)
@@ -80,7 +81,7 @@ print(lovenum)
 
 
 - 删除  
-1.删除任意位置的元素  **del 表名[位序]**
+1.删除任意位置的元素：**del 表名[位序]**
 ```
 lovenum = [3,5,6,8,9]
 del lovenum[1]
@@ -88,7 +89,7 @@ print(lovenum)
 
 [3, 6, 8, 9]
 ```
-2.pop的使用  **弹出，并能接着使用该元素**
+2.pop的使用：**弹出，并能接着使用该元素**
 ```
 lovenum = [3,5,6,8,9]
 lovenum.pop()
@@ -102,7 +103,6 @@ print(lovenum)
 
 [3,6,8,9]
 ```
-
 3.根据值删除元素
 ```
 lovenum = [3,5,6,8,9]
